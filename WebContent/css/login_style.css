@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+html {
+	overflow-y: scroll;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	display: block;
+}
+
+.wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.left {
+	display: table-cell;
+	background-image: url('../img/main.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 70%;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+.right {
+	display: table-cell;
+	background-size: cover;
+	height: 100%;
+	width: 30%;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.right_container {
+	width: 90%;
+}
+
+.right_container img {
+	
+}
